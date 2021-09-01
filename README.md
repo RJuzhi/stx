@@ -1,6 +1,6 @@
 # stx
 starlingx4 images
-
+```shell
 "download_images_list": [
         "k8s.gcr.io/kube-apiserver:v1.18.1",
         "k8s.gcr.io/kube-controller-manager:v1.18.1",
@@ -22,3 +22,4 @@ starlingx4 images
         "quay.io/stackanetes/kubernetes-entrypoint:v0.3.1",
         "quay.io/k8scsi/snapshot-controller:v2.0.0-rc2"
     ]
+```
