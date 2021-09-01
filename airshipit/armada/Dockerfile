@@ -1,0 +1,1 @@
+From quay.io/airshipit/armada:8a1638098f88d92bf799ef4934abe569789b885e-ubuntu_bionic
