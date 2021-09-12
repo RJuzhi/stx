@@ -31,18 +31,19 @@ starlingx4 images
 
 ```shell
 /usr/local/share/applications/helm
-
-quay.io/jetstack/cert-manager-controller:v0.15.0
-quay.io/jetstack/cert-manager-webhook:v0.15.0
-quay.io/jetstack/cert-manager-cainjector:v0.15.0
-quay.io/jetstack/cert-manager-acmesolver:v0.15.0
-k8s.gcr.io/defaultbackend:1.4
-quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.23.0
-docker.io/starlingx/dex:stx.4.0-v2.14.0-1
-quay.io/dexidp/dex:v2.14.0
-gcr.io/google_containers/kubernetes-dashboard-init-amd64:v1.0.0
-docker.io/starlingx/stx-oidc-client:stx.4.0-v1.0.2
-docker.io/starlingx/ceph-config-helper:v1.15.0
-quay.io/kubernetes_incubator/node-feature-discovery:v0.3.0
-quay.io/external_storage/rbd-provisioner:v2.1.1-k8s1.11
+{
+        quay.io/jetstack/cert-manager-controller:v0.15.0
+        quay.io/jetstack/cert-manager-webhook:v0.15.0
+        quay.io/jetstack/cert-manager-cainjector:v0.15.0
+        quay.io/jetstack/cert-manager-acmesolver:v0.15.0
+        k8s.gcr.io/defaultbackend:1.4
+        quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.23.0
+        docker.io/starlingx/dex:stx.4.0-v2.14.0-1
+        quay.io/dexidp/dex:v2.14.0
+        gcr.io/google_containers/kubernetes-dashboard-init-amd64:v1.0.0
+        docker.io/starlingx/stx-oidc-client:stx.4.0-v1.0.2
+        docker.io/starlingx/ceph-config-helper:v1.15.0
+        quay.io/kubernetes_incubator/node-feature-discovery:v0.3.0
+        quay.io/external_storage/rbd-provisioner:v2.1.1-k8s1.11
+}
 ````
