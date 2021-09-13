@@ -1,1 +1,1 @@
-From docker.io/kolla/ubuntu-source-ceilometer-api:ocata
+From docker.io/kolla/ubuntu-source-ceilometer-collector:ocata
