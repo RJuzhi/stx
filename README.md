@@ -147,6 +147,15 @@ starlingx4 images
 ```
 
 ```shell
+"Other": [
+        gcr.io/google_containers/hyperkube-amd64:v1.11.6
+        gcr.io/google_containers/defaultbackend:1.0
+]
+```
+
+
+
+```shell
 "questions": [
         docker.io/openstackhelm/neutron:stein-18.04-sriov not found
 ]
